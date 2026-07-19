@@ -1,7 +1,9 @@
 # SCORM Exporter Toolkit
 
 A small self-serve toolkit for exporting D2L / Articulate Rise SCORM course
-content to searchable Markdown, HTML, and PDF.
+content to searchable Markdown, HTML, and PDF. 
+
+I used it to scrape my course content off of d2l so I can read it anytime. (as well as passing it to an AI session to better help me understand the course content)
 
 The workflow has two parts:
 
