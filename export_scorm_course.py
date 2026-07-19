@@ -18,7 +18,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 OUTPUTS = ROOT / "outputs"
 
 
@@ -708,7 +708,7 @@ def register_font():
         "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
         "/System/Library/Fonts/Supplemental/Arial.ttf",
         "/Library/Fonts/Arial Unicode.ttf",
-        "/Users/baka/.cache/codex-runtimes/codex-primary-runtime/dependencies/fonts/DejaVuSans.ttf",
+        str(ROOT / "fonts" / "DejaVuSans.ttf"),
     ]
     for candidate in candidates:
         if Path(candidate).exists():

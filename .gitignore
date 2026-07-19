@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+.scorm_exporter_watch_state.json
+outputs/
